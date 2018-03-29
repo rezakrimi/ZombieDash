@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F54D23981D4C5A5800733A9D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F54D23971D4C5A5800733A9D /* main.cpp */; };
+		F54D23A41D4C5AB800733A9D /* SDL2_image.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D23A01D4C5AB700733A9D /* SDL2_image.framework */; };
+		F54D23A51D4C5AB800733A9D /* SDL2_mixer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D23A11D4C5AB700733A9D /* SDL2_mixer.framework */; };
+		F54D23A61D4C5AB800733A9D /* SDL2_ttf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D23A21D4C5AB700733A9D /* SDL2_ttf.framework */; };
+		F54D23A71D4C5AB800733A9D /* SDL2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F54D23A31D4C5AB800733A9D /* SDL2.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F54D23921D4C5A5800733A9D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F54D23941D4C5A5800733A9D /* ZombieDash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ZombieDash; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54D23971D4C5A5800733A9D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F54D239E1D4C5A9D00733A9D /* Library */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Library; path = ../../../../../Library; sourceTree = "<group>"; };
+		F54D23A01D4C5AB700733A9D /* SDL2_image.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_image.framework; path = ../../../../../Library/Frameworks/SDL2_image.framework; sourceTree = "<group>"; };
+		F54D23A11D4C5AB700733A9D /* SDL2_mixer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_mixer.framework; path = ../../../../../Library/Frameworks/SDL2_mixer.framework; sourceTree = "<group>"; };
+		F54D23A21D4C5AB700733A9D /* SDL2_ttf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2_ttf.framework; path = ../../../../../Library/Frameworks/SDL2_ttf.framework; sourceTree = "<group>"; };
+		F54D23A31D4C5AB800733A9D /* SDL2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL2.framework; path = ../../../../../Library/Frameworks/SDL2.framework; sourceTree = "<group>"; };
+		F54D23A91D4C5C6C00733A9D /* Genio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Genio.h; sourceTree = "<group>"; };
+		F54D23AA1D4C5C7F00733A9D /* arial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = arial.ttf; sourceTree = "<group>"; };
+		F54D23AC1D4C5DCF00733A9D /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Frameworks; path = ../../../../../Library/Frameworks; sourceTree = "<group>"; };
+		F5527F6A206ACD91009384CA /* Music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Music; sourceTree = "<group>"; };
+		F5527F6B206ACE40009384CA /* pic */ = {isa = PBXFileReference; lastKnownFileType = folder; path = pic; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F54D23911D4C5A5800733A9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D23A41D4C5AB800733A9D /* SDL2_image.framework in Frameworks */,
+				F54D23A51D4C5AB800733A9D /* SDL2_mixer.framework in Frameworks */,
+				F54D23A61D4C5AB800733A9D /* SDL2_ttf.framework in Frameworks */,
+				F54D23A71D4C5AB800733A9D /* SDL2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F54D238B1D4C5A5800733A9D = {
+			isa = PBXGroup;
+			children = (
+				F54D23AC1D4C5DCF00733A9D /* Frameworks */,
+				F54D23A01D4C5AB700733A9D /* SDL2_image.framework */,
+				F54D23A11D4C5AB700733A9D /* SDL2_mixer.framework */,
+				F54D23A21D4C5AB700733A9D /* SDL2_ttf.framework */,
+				F54D23A31D4C5AB800733A9D /* SDL2.framework */,
+				F54D239E1D4C5A9D00733A9D /* Library */,
+				F54D23961D4C5A5800733A9D /* ZombieDash */,
+				F54D23951D4C5A5800733A9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F54D23951D4C5A5800733A9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F54D23941D4C5A5800733A9D /* ZombieDash */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F54D23961D4C5A5800733A9D /* ZombieDash */ = {
+			isa = PBXGroup;
+			children = (
+				F54D23A81D4C5C2800733A9D /* src */,
+			);
+			name = ZombieDash;
+			path = "mabani project";
+			sourceTree = "<group>";
+		};
+		F54D23A81D4C5C2800733A9D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F5527F6B206ACE40009384CA /* pic */,
+				F5527F6A206ACD91009384CA /* Music */,
+				F54D23AA1D4C5C7F00733A9D /* arial.ttf */,
+				F54D23A91D4C5C6C00733A9D /* Genio.h */,
+				F54D23971D4C5A5800733A9D /* main.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F54D23931D4C5A5800733A9D /* ZombieDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F54D239B1D4C5A5800733A9D /* Build configuration list for PBXNativeTarget "ZombieDash" */;
+			buildPhases = (
+				F54D23901D4C5A5800733A9D /* Sources */,
+				F54D23911D4C5A5800733A9D /* Frameworks */,
+				F54D23921D4C5A5800733A9D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZombieDash;
+			productName = "mabani project";
+			productReference = F54D23941D4C5A5800733A9D /* ZombieDash */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F54D238C1D4C5A5800733A9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = reza;
+				TargetAttributes = {
+					F54D23931D4C5A5800733A9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = F54D238F1D4C5A5800733A9D /* Build configuration list for PBXProject "ZombieDash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F54D238B1D4C5A5800733A9D;
+			productRefGroup = F54D23951D4C5A5800733A9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F54D23931D4C5A5800733A9D /* ZombieDash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F54D23901D4C5A5800733A9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F54D23981D4C5A5800733A9D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F54D23991D4C5A5800733A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F54D239A1D4C5A5800733A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F54D239C1D4C5A5800733A9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F54D239D1D4C5A5800733A9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F54D238F1D4C5A5800733A9D /* Build configuration list for PBXProject "ZombieDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D23991D4C5A5800733A9D /* Debug */,
+				F54D239A1D4C5A5800733A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F54D239B1D4C5A5800733A9D /* Build configuration list for PBXNativeTarget "ZombieDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F54D239C1D4C5A5800733A9D /* Debug */,
+				F54D239D1D4C5A5800733A9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F54D238C1D4C5A5800733A9D /* Project object */;
+}
